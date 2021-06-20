@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACR,UAAU,EAAE,UAAU;CACvB;;AAED,mHAAmH;AAEnH,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,qLAAqL;EAClM,KAAK,ECVO,IAAI;CDWjB;;AAED,AAAA,IAAI;AACJ,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED;;;;;;;;;;;;;IAaI;AAEJ;;;;;;;;;;;;;;;;;;;GAmBG;AAEH,oCAAoC;AACpC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA0GI;AAEJ,uCAAuC;AAEvC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA8EI;AAEJ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAmKI;AAEJ,qFAAqF;AACrF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAkFI;AAEJ,+BAA+B;AAE/B;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAoCI;AAGJ,yBAAyB;AACzB;;;;;;;;;;;;;;;;;;;;;;;;;;IA0BI;AAEJ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA0II;AAEJ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAwQG",
+    "sources": [
+        "globals.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "globals.css"
+}

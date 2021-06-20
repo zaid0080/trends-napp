@@ -1,0 +1,212 @@
+.navbar {
+  background-color: #017acd;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar > span {
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.navbar > span > span {
+  border-right: 1px solid #fff;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.navbar .nav_search {
+  position: relative;
+  top: 2px;
+}
+
+.menu_bars {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  cursor: pointer;
+}
+
+.navmenu {
+  background-color: #017acd;
+  width: 50vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.active {
+  left: 0;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+.nav_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 8px 0 8px 16px;
+  list-style-type: none;
+  height: 60px;
+}
+
+.nav_text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav_text a:hover {
+  background-color: #8d9bf5;
+}
+
+.nav_text span {
+  margin-left: 16px;
+}
+
+.navbar_toggle {
+  background-color: #017acd;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav_menu_items {
+  width: 100%;
+}
+
+.listitems {
+  position: absolute;
+  color: #fff;
+  overflow: hidden;
+  top: 60px;
+  right: 0;
+  -webkit-transition: width 0.4s ease-out;
+  transition: width 0.4s ease-out;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 0;
+  z-index: 1;
+  text-align: center;
+  background-color: #017acd;
+}
+
+.listitems .Search {
+  border: 1px solid #000;
+  height: 30px;
+  padding: 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 25px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.listitems .list_cities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.listitems li {
+  margin: 8px;
+}
+
+.listitems li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list_active {
+  position: absolute;
+  width: 100vw;
+}
+
+.countriesNames {
+  display: inline-block;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=Navbar.module.css.map */

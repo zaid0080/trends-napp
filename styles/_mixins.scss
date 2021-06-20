@@ -1,0 +1,10 @@
+@mixin flex($content, $align, $direction) {
+    display: flex;
+    justify-content: $content;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+$primary_color : #017acd;
+$text_color1: #fff;
+$text_color2: #000;

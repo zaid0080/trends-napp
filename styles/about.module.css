@@ -1,0 +1,28 @@
+.about_page {
+    min-height: 100vh;
+    margin: 50px auto 0 auto;
+    width: 70%;
+    color: #000;
+  }
+  
+  .title {
+    margin: 50px 0;
+    font-weight: 400;
+  }
+  
+  .tagLines {
+    margin: 30px auto;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  .about_img {
+    height: 200px;
+    z-index: -1;
+    width: 300px;
+  }
+  
+  .links {
+    display: none;
+  }
